@@ -1,0 +1,53 @@
+.abuelo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.padre{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    position: relative;    
+}
+
+.tr{
+    height: 50px;
+    width: 50px;
+    border-radius: 360px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    background-color: lawngreen;
+}
+
+.tl{
+    height: 50px;
+    width: 50px;
+    border-radius: 360px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background-color: lawngreen;
+}
+
+.br{
+    height: 50px;
+    width: 50px;
+    border-radius: 360px;
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    background-color: lawngreen;
+}
+
+.bl{
+    height: 50px;
+    width: 50px;
+    border-radius: 360px;
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    background-color: lawngreen;
+}
